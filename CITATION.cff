@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+version: "2.0.0"
+date-released: "2026-05-01"
+title: "Essential Considerations for Modeling Epidemics: A Modern Introduction to Formulating, Analyzing, Simulating, and Fitting Models"
+message: "If you use this repository, please cite the accompanying book."
+type: book
+authors:
+  - family-names: "Hyman"
+    given-names: "James M."
+    affiliation: "Department of Mathematics, Tulane University"
+    email: "mhyman@tulane.edu"
+    orcid: "https://orcid.org/0000-0002-0851-1860"
+  - family-names: "Qu"
+    given-names: "Zhuolin"
+    affiliation: "Department of Mathematics, University of Texas at San Antonio"
+  - family-names: "Xue"
+    given-names: "Ling"
+    affiliation: "College of Mathematical Sciences, Harbin Engineering University"
+year: 2026
+publisher:
+  name: "Publisher to be determined"
+abstract: >
+  An undergraduate-and-graduate textbook teaching epidemic modeling through 13
+  recurring considerations — decision points where modelers most often go wrong.
+  Develops the SIR_I framework with explicit treatment of the force-of vs
+  force-from infection distinction, the structural-immunity advantage of the
+  infected-viewpoint estimator, the invasion-burden partition, and AI-assisted
+  learning protocols including AI Audit, AI Lab, and Open Project exercises.
+  Case studies on COVID-19, dengue, and HIV.
+keywords:
+  - epidemic modeling
+  - mathematical epidemiology
+  - SIR model
+  - reproductive number
+  - parameter estimation
+  - sensitivity analysis
+  - AI-assisted learning
+  - undergraduate textbook
+license: "Other"
+license-url: "https://github.com/machyman/hyman2026essential/blob/main/LICENSE-CONTENT"
+repository-code: "https://github.com/machyman/hyman2026essential"
+url: "https://github.com/machyman/hyman2026essential"
+identifiers:
+  - type: other
+    value: "Manuscript v60 (pre-submission, 441 pp)"
+    description: "Build state at first repository release"
+
+# Preferred citation for the book itself
+preferred-citation:
+  type: book
+  title: "Essential Considerations for Modeling Epidemics: A Modern Introduction to Formulating, Analyzing, Simulating, and Fitting Models"
+  authors:
+    - family-names: "Hyman"
+      given-names: "James M."
+    - family-names: "Qu"
+      given-names: "Zhuolin"
+    - family-names: "Xue"
+      given-names: "Ling"
+  year: 2026
+  publisher:
+    name: "Publisher to be determined"
+  notes: >
+    Manuscript in preparation; freely available from the authors. DOI to be
+    assigned at publication.

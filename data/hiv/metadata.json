@@ -1,0 +1,22 @@
+{
+  "title": "Synthetic HIV bipartite prevalence, illustrative generalized epidemic with TasP rollout",
+  "duration_years": 30,
+  "generating_model": "bipartite (M-F) SI model with treatment-as-prevention compartment and time-varying treatment coverage",
+  "generating_parameters_TRUTH_FOR_NOTEBOOK_VERIFICATION": {
+    "NM": 0.5,
+    "NF": 0.5,
+    "cMF": 1.5,
+    "cFM": 1.5,
+    "betaMF": 0.2,
+    "betaFM": 0.1,
+    "tau_R_untreated_years": 10.0,
+    "tau_R_treated_years": 0.5,
+    "treatment_rollout_start_year": 10,
+    "treatment_rollout_end_year": 25,
+    "treatment_coverage_max": 0.6,
+    "R0_untreated": 2.12
+  },
+  "noise_model": "log-normal multiplicative noise with sigma=0.05 (survey-based prevalence estimates)",
+  "seed": 20260509,
+  "purpose": "Used by Chapter 17 notebooks to demonstrate HIV bipartite calibration, treatment-as-prevention impact, and geographic-comparison structure."
+}

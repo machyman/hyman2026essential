@@ -1,0 +1,20 @@
+{
+  "title": "Synthetic dengue monthly cases per 100K, illustrative tropical city",
+  "duration_months": 60,
+  "population_basis": 100000,
+  "generating_model": "vector-host SIRS with seasonal vector mortality + 2-year waning immunity",
+  "generating_parameters_TRUTH_FOR_NOTEBOOK_VERIFICATION": {
+    "a": 0.4,
+    "b": 0.4,
+    "c": 0.4,
+    "mu_v_baseline": 0.07142857142857142,
+    "mu_v_amplitude": 0.5,
+    "gamma_h": 0.14285714285714285,
+    "xi_h": 0.0013698630136986301,
+    "M_over_N": 5.0,
+    "seasonal_phase_radians": "pi (mu_v minimum in mid-year, simulating wet season)"
+  },
+  "noise_model": "Poisson(monthly cumulative incidence per 100K)",
+  "seed": 20260508,
+  "purpose": "Used by Chapter 16 notebooks to demonstrate seasonal-R_0 calibration and intervention-sensitivity analysis. Notebooks fit without knowing the truth."
+}
