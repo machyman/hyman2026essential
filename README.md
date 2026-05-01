@@ -207,4 +207,4 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the contribution workflow.
 
 ---
 
-*This repository is currently private during the book's pre-submission writing and review. It will become a public open-source repository upon publication of the book. MATLAB and R implementations will be added after book finalization.*
+*This repository is in pre-submission, pre-publication form. It is currently public for co-author review and ongoing development; stable versions will be tagged upon publication of the book. MATLAB and R implementations will be added after the book finalization.*
